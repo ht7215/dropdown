@@ -1,0 +1,17 @@
+#img1{
+    position: sticky;
+    top: 100px;
+    left: 0px;
+}
+#img2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/* static means no change...we cannot overlap content
+relative means move from original position here content is accessing point...content is acess centre point
+absolute means move from top position ..it is not occupying original space....Here body is accessing point...it will not take space of image we moved
+sticky will permanently stick at particular place...it will limited to parent....
+fixed also doesnt occupy space ...it will take body as parent ..sticky and absolute is similar....it will remain after scrolling...it will take body as accessing point
+*/
